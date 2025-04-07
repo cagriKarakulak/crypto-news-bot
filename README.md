@@ -31,18 +31,21 @@ It then filters these articles based on user-defined importance and sentiment th
 *   **Environment Variable Support:** Securely load API keys using a `.env` file.
 
 ## Project Structure
+
+```text
 crypto-news-bot/
-├── main.py # Main execution script orchestrating the bot
-├── config.py # Configuration settings (API keys, keywords, filters, etc.)
-├── news_fetcher.py # Module for fetching news from the API
-├── news_analyzer.py # Module for analyzing news articles (sentiment, importance, coins)
-├── notifier.py # Module for handling sound notifications
-├── persistence.py # Module for managing the history of seen news articles
-├── requirements.txt # List of Python package dependencies
-├── .env.example # Example file for environment variables (API Key)
-├── seen_news.json # Stores URLs of processed news (auto-generated)
+├── main.py             # Main execution script orchestrating the bot
+├── config.py           # Configuration settings (API keys, keywords, filters, etc.)
+├── news_fetcher.py     # Module for fetching news from the API
+├── news_analyzer.py    # Module for analyzing news articles (sentiment, importance, coins)
+├── notifier.py         # Module for handling sound notifications
+├── persistence.py      # Module for managing the history of seen news articles
+├── requirements.txt    # List of Python package dependencies
+├── .env.example        # Example file for environment variables (API Key)
+├── seen_news.json      # Stores URLs of processed news (auto-generated)
 ├── crypto_news_bot.log # Log file for detailed bot activity (auto-generated)
-└── notification.wav # Optional sound file for notifications
+└── notification.wav    # Optional sound file for notifications
+```
 
 
 ## Requirements
